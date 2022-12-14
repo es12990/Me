@@ -84,6 +84,49 @@
     font-size: 250%;
   }
 
+  #cute{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("Images/kitten.webp");
+    height: 20vh;
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #cute > h1, h3, nav {
+    padding: 0;
+    margin:auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: rgba(255, 255, 255, .6)
+  }
+
+  #cute > h3 {
+    margin-bottom: 0;
+  }
+
+  #cute > nav {
+    padding: 0;
+    margin:auto;
+    position: relative;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: rgba(255, 255, 230, .6)
+  }
+
+  #cute > h1 {
+    font-size: 500%;
+  }
+
+  #cute > h3 {
+    font-size: 250%;
+  }
+
   .grid {
     margin: auto;
     display: grid;
@@ -129,4 +172,7 @@
   h6 {
     font-size: 150%;
     text-align: center;
+  }
+  img {
+    width: 20vw
   }
